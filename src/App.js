@@ -16,8 +16,8 @@ function App() {
   const [recipes, setRecipes] = useState([]);
   const [nClick, setNClick] = useState(0);
 
-  var APP_ID = "YOUR_APP_ID";
-  var APP_KEY = "YOUR_APP_KEY";
+  var APP_ID = "da01fbea";
+  var APP_KEY = "f81b60a41cd16f86d6af43edd6886e65";
   var start = 0;
 
   const getRecipes = async (start, end) => {
